@@ -26,7 +26,7 @@ function carrinho(evento){
     pessoas.push(criaPessoas.altura)
 
     console.log(pessoas)
-    resultado.innerHTML += 'Nome: ' + pessoas[i++] + '<br>' + 'Sobrenome: ' + pessoas[i++] + '<br>' + 'Peso: ' + pessoas[i++] + '<br>' + 'Altura: ' + pessoas[i++] + '<br><br>'
+    resultado.innerHTML += 'Nome: ' + pessoas[i++] + '&nbsp;' + pessoas[i++] + '<br>' + 'Peso: ' + pessoas[i++] + '<br>' + 'Altura: ' + pessoas[i++] + '<br><br>'
 
 }
 
